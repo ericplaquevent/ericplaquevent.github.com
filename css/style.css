@@ -38,6 +38,7 @@ sup { top: -0.5em; }
 sub { bottom: -0.25em; }
 
 ul, ol { margin: 1em 0; padding:0 20px 20px 20px; list-style:none;}
+ul ul { margin: 1em 0; padding: 0 0 0 0; list-style:none;}
 dd { margin: 0 0 0 40px; }
 nav ul, nav ol { list-style: none; list-style-image: none; margin: 0; padding: 0; }
 
@@ -165,10 +166,20 @@ h4{
     padding: 0;
     margin: 20px 0 0 0;
 }
+h5{
+    font-size: 1em;
+    padding: 0;
+    margin: 20px 0 0 0;
+    display:inline;
+}
 
 p {
 	padding: 0;
 	margin: 5px 0 0 0;
+}
+
+p.inline {
+	display:inline;
 }
 
 span.location{
