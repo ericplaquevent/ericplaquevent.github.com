@@ -1,17 +1,8 @@
-/* Author: ericplaquevent */
-$(document).ready(function(){
+(function() {
+  var getAgeFromBirthDate = function getAgeFromBirthDate(birthdate) {
+    return Math.floor(((new Date() - new Date(birthdate)) / 1000 / (60 * 60 * 24)) / 365.25);
+  };
 
-    var getAgeFromBirthDate = function(birthdate){
-        return Math.floor(((new Date() - new Date(birthdate)) / 1000 / (60 * 60 * 24)) / 365.25 );
-    };
-    
-    $("#age").text("("+getAgeFromBirthDate('1988-02-02')+" ans)");
-    
-});
-
-
-
-
-
-
-
+  var age = getAgeFromBirthDate('1988-02-02');
+  document.getElementById("age").innerHTML = age + " ans";
+})();
