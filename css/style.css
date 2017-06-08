@@ -87,6 +87,9 @@ li {
   @page {
     margin: 0.5cm;
   }
+  h2 {
+    border-bottom: 1px solid #888888;
+  }
   p, h2, h3 {
     orphans: 3;
     widows: 3;
