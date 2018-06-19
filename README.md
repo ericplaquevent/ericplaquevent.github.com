@@ -1,4 +1,4 @@
 ericplaquevent.github.com
 =========
 
-A simple web page using initializr
+Just my web page : http://plaquevent.net

@@ -1,9 +1,9 @@
 body {
-  padding: 30px 100px;
+  padding: 30px 150px;
   font-family: "Inconsolata", "Courier New", Courier, monospace;
   color: #2b2b2b;
   line-height: 1.5;
-  font-size: 16px;
+  font-size: 1.1rem;
 }
 
 a {
@@ -12,7 +12,7 @@ a {
 }
 
 h1, h2 {
-  font-size: 1.1em;
+  font-size: 1.3rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
