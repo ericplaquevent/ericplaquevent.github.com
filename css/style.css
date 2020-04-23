@@ -49,6 +49,11 @@ li {
   padding-bottom: 5px;
 }
 
+.emoji {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
 
 /* =============================================================================
    Small screens Styles
