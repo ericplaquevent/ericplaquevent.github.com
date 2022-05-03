@@ -4,5 +4,5 @@
   };
 
   var age = getAgeFromBirthDate('1988-02-02');
-  document.getElementById("age").innerHTML = age + " ans";
+  document.getElementById("age").innerHTML = age;
 })();
