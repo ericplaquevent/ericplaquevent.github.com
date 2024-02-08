@@ -1,9 +1,9 @@
 body {
-  padding: 30px 150px;
-  font-family: "Inconsolata", "Courier New", Courier, monospace;
+  padding: 32px 320px;
+  font-family: "Courier New", Courier, monospace;
   color: #2b2b2b;
   line-height: 1.5;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
 }
 
 a {
@@ -12,7 +12,7 @@ a {
 }
 
 h1, h2 {
-  font-size: 1.3rem;
+  font-size: 1.4rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -20,13 +20,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h2 {
-  padding: 5px 0 5px 20px;
+  padding: 8px 0 8px 24px;
   border-bottom: 1px dashed #888888;
-  margin-bottom: 5px;
+  margin-bottom: 8px;
 }
 
 h3 {
-  padding-top: 5px;
+  padding-top: 8px;
 }
 
 header nav {
@@ -34,19 +34,19 @@ header nav {
 }
 
 header {
-  padding-bottom: 20px;
+  padding-bottom: 24px;
 }
 
 section {
-  padding-bottom: 25px;
+  padding-bottom: 24px;
 }
 
 section#info {
-  padding-bottom: 35px;
+  padding-bottom: 40px;
 }
 
 li {
-  padding-bottom: 5px;
+  padding-bottom: 8px;
 }
 
 .emoji {
@@ -59,7 +59,7 @@ li {
    Small screens Styles
    ========================================================================== */
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1280px) {
   body {
     padding: 15px 50px;
   }
